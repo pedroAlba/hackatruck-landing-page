@@ -159,6 +159,12 @@ img::-moz-selection {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
+
+    #mainNav {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #F05F40;
   }
@@ -175,10 +181,20 @@ img::-moz-selection {
   }
 }
 
+    .img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/unnamed.jpg");
+  background-image: url("../img/header.jpg");
   background-position: center center;
   background-size: cover;
 }
