@@ -73,15 +73,15 @@
     scale: 0
   });
   sr.reveal('.sr-contact-3', {
-    delay: 600,
+    delay: 200,
     scale: 0
   });
   sr.reveal('.sr-contact-4', {
-    delay: 700,
+    delay: 300,
     scale: 0
   });
     sr.reveal('.sr-contact-5', {
-    delay: 800,
+    delay: 400,
     scale: 0
   });
 
